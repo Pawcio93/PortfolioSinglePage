@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Playball', cursive;
+}
+
+section {
+  border-bottom: 3px solid #FFFFFF;
+  width: 100%;
+  height: auto;
+  float: left;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  z-index: 3;
+  top: 40px;
+}
+
+ul {
+  display: table;
+  margin: auto;
+  list-style: none;
+}
+@media screen and (min-width: 1401px) {
+  ul {
+    font-size: 2.5em;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 1400px) {
+  ul {
+    font-size: 2em;
+  }
+}
+@media screen and (max-width: 600px) {
+  ul {
+    font-size: 1.2em;
+  }
+}
+ul li {
+  float: left;
+  margin-right: 30px;
+}
+ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+ul li a:hover {
+  text-decoration: underline;
+  color: #FFD700;
+}
+
+article {
+  text-align: center;
+  width: 60%;
+  margin: 10px 20%;
+  font-size: 2em;
+  z-index: 1;
+  color: #FFD700;
+}
+
+@media screen and (min-width: 1401px) {
+  .startText {
+    font-size: 2em;
+    height: 400px;
+    position: absolute;
+    float: left;
+    top: 60%;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 1400px) {
+  .startText {
+    font-size: 1.5em;
+    height: 400px;
+    position: absolute;
+    float: left;
+    top: 60%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .startText {
+    font-size: 1em;
+    height: 400px;
+    position: absolute;
+    float: left;
+    top: 60%;
+  }
+}
+.hobby {
+  border: 5px solid #FFD700;
+  margin: 10% 5% 5% 5%;
+  float: left;
+  display: inline-block;
+  height: 0;
+  width: 20%;
+  background-color: #FFFFFF;
+  cursor: pointer;
+}
+
+.hobbyOnClick {
+  background-color: #000000;
+  z-index: 3;
+  width: 100%;
+  cursor: default !important;
+}
+
+.firstInLine {
+  margin-left: 8%;
+}
+
+.hobbyImg {
+  margin: 20%;
+  width: 60%;
+  height: 60%;
+}
+
+.sportText {
+  font-size: 1.5em;
+  color: #FFD700;
+  width: 40%;
+  height: 25%;
+  margin: 4%;
+  display: inline-block;
+  padding: 5px;
+}
+.sportText p {
+  margin-left: 3%;
+}
+
+#cancel {
+  font-size: 1.5em;
+  cursor: pointer !important;
+  color: #FFFFFF;
+  margin-top: 5%;
+  margin: auto;
+  width: 12%;
+  height: 5%;
+  display: block;
+}
+#cancel p {
+  text-align: center;
+}
+#cancel p:hover {
+  text-decoration: underline;
+  color: #FFD700;
+}
+
+#runmaggedon, #gym {
+  width: 40%;
+  height: 30%;
+  margin: 4%;
+  display: inline-block;
+  border: 5px solid #FFD700;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+  filter: grayscale(100%);
+}
+
+#page1 {
+  position: relative;
+}
+
+#page2 {
+  background-color: #000000;
+}
+
+#page3 {
+  background-color: #000000;
+}
+
+#page4 {
+  background-color: #000000;
+}
+
+#page5 {
+  background-color: #000000;
+}
+
+/*# sourceMappingURL=style.css.map */

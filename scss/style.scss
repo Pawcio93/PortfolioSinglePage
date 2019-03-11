@@ -144,7 +144,7 @@ height: 60%;
    width: 40%;
    height: 25%;
    margin: 4%;
-   display: inline-block;
+   display: none;
    padding: 5px;
    p
    {
@@ -152,7 +152,7 @@ height: 60%;
    }
  }
  
- #cancel
+ .cancel
  {
      font-size: 1.5em;  
      cursor: pointer !important;
@@ -161,7 +161,7 @@ height: 60%;
      margin: auto;
      width: 12%;
      height: 5%;
-     display: block;
+     display: none;
      p
      {
      text-align: center;
@@ -174,12 +174,12 @@ height: 60%;
  }
 
 
-#runmaggedon, #gym
+.sportImg
 {
    width: 40%;
    height: 30%;
    margin: 4%;
-   display: inline-block;
+   display: none;
    border: 5px solid $goldColor; 
 }
 

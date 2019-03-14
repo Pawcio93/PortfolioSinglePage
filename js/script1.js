@@ -34,10 +34,11 @@ var chooseHobby = function()
 // Function which close hooby section
 var closeHobby = function()
 {
-    $("#sport").addClass('hobby firstInLine').removeClass('hobbyOnClick');
-    $('.hobbyImg').show();
-    $('.cancel, .sportImg, .sportText').hide();
-    $('.hobby').css('display', 'inline-block');
+    alert("function start");
+    $(this).parent().addClass('hobby firstInLine').removeClass('hobbyOnClick');
+    $(this).siblings('.hobbyImg').show();
+    $(this).siblings('.cancel, .sportImg, .sportText').hide();
+    $(this).siblings('.hobby').css('display', 'inline-block');
     updateHeight2();
 
 };

@@ -128,6 +128,19 @@ article {
   margin-left: 3%;
 }
 
+.sportImg {
+  width: 40%;
+  height: 30%;
+  margin: 4%;
+  display: none;
+  border: 5px solid #FFD700;
+}
+
+#map {
+  height: 75%;
+  width: 98%;
+}
+
 .cancel {
   font-size: 1.5em;
   cursor: pointer !important;
@@ -144,14 +157,6 @@ article {
 .cancel p:hover {
   text-decoration: underline;
   color: #FFD700;
-}
-
-.sportImg {
-  width: 40%;
-  height: 30%;
-  margin: 4%;
-  display: none;
-  border: 5px solid #FFD700;
 }
 
 .responsive {
